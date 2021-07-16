@@ -435,6 +435,7 @@ dependencies = [
  "csv",
  "ctrlc",
  "difference",
+ "docsrs-metadata",
  "dotenv",
  "env_logger",
  "failure",
@@ -708,6 +709,16 @@ name = "doc-comment"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
+
+[[package]]
+name = "docsrs-metadata"
+version = "0.1.0"
+source = "git+https://github.com/rust-lang/docs.rs/#97080011f4e3007c22a0b181d9820e6e980c5bf7"
+dependencies = [
+ "serde",
+ "thiserror",
+ "toml 0.5.7",
+]
 
 [[package]]
 name = "dotenv"

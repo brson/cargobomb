@@ -1,0 +1,27 @@
+[server.bot-acl]
+rust-teams = true
+github = ["pietroalbini"]
+
+[server.labels]
+remove = "^S-"
+experiment-queued = "S-waiting-on-crater"
+experiment-completed = "S-waiting-on-review"
+
+[server.distributed]
+chunk-size = 32
+
+[demo-crates]
+crates = []
+github-repos = []
+local-crates = ["build-pass", "docs-rs-features"]
+
+[sandbox]
+memory-limit = "512M"
+build-log-max-size = "2M"
+build-log-max-lines = 1000
+
+[crates]
+
+[github-repos]
+
+[local-crates]

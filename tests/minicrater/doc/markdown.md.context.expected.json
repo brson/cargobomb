@@ -1,0 +1,52 @@
+{
+  "categories": [
+    [
+      "error",
+      {
+        "Plain": [
+          {
+            "krate": {
+              "Local": "build-pass"
+            },
+            "name": "build-pass (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/build-pass",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/build-pass",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
+          },
+          {
+            "krate": {
+              "Local": "docs-rs-features"
+            },
+            "name": "docs-rs-features (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/docs-rs-features",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/docs-rs-features",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/docs-rs-features"
+          }
+        ]
+      }
+    ]
+  ],
+  "crates_count": 2,
+  "full": false,
+  "info": {
+    "error": 2
+  }
+}

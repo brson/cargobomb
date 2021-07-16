@@ -20,6 +20,7 @@ chrono-humanize = "0.1.1"
 crates-index = "0.16.2"
 crossbeam-utils = "0.5"
 csv = "1.0.2"
+docsrs-metadata = { git = "https://github.com/rust-lang/docs.rs/" }
 dotenv = "0.13"
 failure = "0.1.3"
 flate2 = "1"

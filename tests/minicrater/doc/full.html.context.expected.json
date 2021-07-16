@@ -1,0 +1,76 @@
+{
+  "categories": [
+    [
+      "error",
+      {
+        "Plain": [
+          {
+            "name": "build-pass (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/build-pass",
+                "res": 0
+              },
+              {
+                "log": "beta/local/build-pass",
+                "res": 0
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
+          },
+          {
+            "name": "docs-rs-features (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/docs-rs-features",
+                "res": 0
+              },
+              {
+                "log": "beta/local/docs-rs-features",
+                "res": 0
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/docs-rs-features"
+          }
+        ]
+      }
+    ]
+  ],
+  "comparison_colors": {
+    "error": {
+      "Single": "#d77026"
+    }
+  },
+  "crates_count": 2,
+  "full": true,
+  "info": {
+    "error": 2
+  },
+  "nav": [
+    {
+      "active": false,
+      "label": "Summary",
+      "url": "index.html"
+    },
+    {
+      "active": true,
+      "label": "Full report",
+      "url": "full.html"
+    },
+    {
+      "active": false,
+      "label": "Downloads",
+      "url": "downloads.html"
+    }
+  ],
+  "result_colors": [
+    {
+      "Single": "#d77026"
+    }
+  ],
+  "result_names": [
+    "error"
+  ]
+}

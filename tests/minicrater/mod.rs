@@ -42,6 +42,13 @@ minicrater! {
         ..Default::default()
     },
 
+    doc_small {
+        ex: "doc",
+        crate_select: "demo",
+        mode: "rustdoc",
+        ..Default::default()
+    },
+
     single_thread_missing_repo {
         ex: "missing-repo",
         crate_select: "dummy",

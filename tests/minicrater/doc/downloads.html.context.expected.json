@@ -1,0 +1,30 @@
+{
+  "available_archives": [
+    {
+      "name": "All the crates",
+      "path": "logs-archives/all.tar.gz"
+    },
+    {
+      "name": "error crates",
+      "path": "logs-archives/error.tar.gz"
+    }
+  ],
+  "crates_count": 2,
+  "nav": [
+    {
+      "active": false,
+      "label": "Summary",
+      "url": "index.html"
+    },
+    {
+      "active": false,
+      "label": "Full report",
+      "url": "full.html"
+    },
+    {
+      "active": true,
+      "label": "Downloads",
+      "url": "downloads.html"
+    }
+  ]
+}
