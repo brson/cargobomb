@@ -148,7 +148,7 @@ Crater allows some configurations to the toolchains used in an experiment.
 You can specify a toolchain using a rustup name or `branch#sha`, and use the
 following flags:
 * `+rustflags={flags}`: sets the `RUSTFLAGS` environment variable to `{flags}` when
-  building with this toolchain
+  building with this toolchain, e.g. `+rustflags=-Zverbose`
 * `+patch={crate_name}={git_repo_url}={branch}`: patches all crates built by
   this toolchain to resolve the given crate from the given git repository and branch.
 
